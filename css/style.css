@@ -1,0 +1,78 @@
+
+.cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.barra-pesquisa__cabecalho {
+    background-color: #F5F5F5;
+    border-radius:20px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.barra-pesquisa-busca__cabecalho {
+    font-family: 'Raleway', sans-serif;
+    color:#A2A2A2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    background-color:transparent;
+    border:none;
+    width:329px;
+    height:16px;
+  }
+
+.botao__cabecalho {
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 16px;
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+}
+
+.banner {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(https://trello.com/1/cards/63372bdf9bfa3102d17bb84f/attachments/63372be09bfa3102d17bba42/download/banner-image.png);
+    background-repeat: no-repeat;
+    /**display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;**/
+    padding: 32px;
+}
+
+.titulo__banner {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.texto__banner {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.botao__banner {
+    background-color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px;
+    border: none;
+}
