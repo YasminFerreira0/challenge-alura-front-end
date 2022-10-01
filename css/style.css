@@ -1,9 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .cabecalho {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     padding: 32px 0;
+
+    width: 75vw;
 }
 
 .barra-pesquisa__cabecalho {
@@ -38,6 +46,8 @@
     width: 182px;
     height: 51px;
     border: 1px solid #2A7AE4;
+
+    align-self: flex-end;
 }
 
 .banner {
@@ -75,4 +85,60 @@
     line-height: 19px;
     padding: 16px;
     border: none;
+}
+
+.titulo__produto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo__starwars {
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.botao__starwars {
+    font-family: 'Raleway', sans-serif;
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.produtos-starwars {
+    display: flex;
+}
+
+.starwars {
+    margin-right: 16px;
+}
+
+.titulo-produto {
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.valor-produto {
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.link-produto {
+    font-family: 'Raleway', sans-serif;
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
 }
