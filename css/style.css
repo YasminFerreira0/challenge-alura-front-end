@@ -93,7 +93,7 @@ body {
     align-items: center;
 }
 
-.titulo__starwars {
+.titulo-tipo__produto {
     font-family: 'Raleway', sans-serif;
     color: #464646;
     font-weight: 700;
@@ -101,7 +101,7 @@ body {
     line-height: 38px;
 }
 
-.botao__starwars {
+.botao__produto {
     font-family: 'Raleway', sans-serif;
     color: #2A7AE4;
     font-weight: 700;
@@ -110,11 +110,11 @@ body {
     text-decoration: none;
 }
 
-.produtos-starwars {
+.produtos-starwars, .produtos-consoles, .produtos-diversos {
     display: flex;
 }
 
-.starwars {
+.starwars, .consoles, .diversos {
     margin-right: 16px;
 }
 
