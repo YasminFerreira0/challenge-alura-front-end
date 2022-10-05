@@ -163,6 +163,44 @@ body {
 .formulario__rodape {
     display: flex;
     flex-direction: column;
+
+}
+
+.titulo__rodape {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.input-name__rodape {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+    margin: 8px;
+}
+.input__rodape {
+    border: none;
+}
+
+.input-texto__rodape {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A2A2A2;
+    margin: 8px;
 }
 
 
