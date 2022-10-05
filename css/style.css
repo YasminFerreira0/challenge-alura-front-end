@@ -110,7 +110,7 @@ body {
     text-decoration: none;
 }
 
-.produtos-starwars, .produtos-consoles, .produtos-diversos {
+.produtos {
     display: flex;
 }
 
@@ -141,4 +141,32 @@ body {
     font-size: 16px;
     line-height: 19px;
     text-decoration: none;
+}
+
+.rodape-condeudo {
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+    background-color: #EAF2FD;
+}
+
+
+.text__rodape a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    line-height: 19px;
+}
+
+.formulario__rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.rodape {
+    text-align: center;
 }
