@@ -1,14 +1,6 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
 .cabecalho {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 32px 0;
 
     width: 75vw;
@@ -35,59 +27,11 @@ body {
     height:16px;
   }
 
-.botao__cabecalho {
-    background-color: transparent;
-    font-family: 'Raleway', sans-serif;
-    color: #2A7AE4;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    padding: 16px;
-    width: 182px;
-    height: 51px;
-    border: 1px solid #2A7AE4;
 
-    align-self: flex-end;
-}
 
-.banner {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(https://trello.com/1/cards/63372bdf9bfa3102d17bb84f/attachments/63372be09bfa3102d17bba42/download/banner-image.png);
-    background-repeat: no-repeat;
-    /**display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;**/
-    padding: 32px;
-}
 
-.titulo__banner {
-    font-family: 'Raleway', sans-serif;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 61px;
-}
 
-.texto__banner {
-    font-family: 'Raleway', sans-serif;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-}
-
-.botao__banner {
-    background-color: #2A7AE4;
-    font-family: 'Raleway', sans-serif;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    padding: 16px;
-    border: none;
-}
-
-.titulo__produto{
+  .titulo__produto{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,7 +87,12 @@ body {
     text-decoration: none;
 }
 
-.rodape-condeudo {
+
+
+
+
+
+  .rodape-condeudo {
     display: flex;
     justify-content: baseline;
     align-items: flex-start;
@@ -204,7 +153,6 @@ body {
 }
 
 
-
 .rodape {
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -213,3 +161,4 @@ body {
     line-height: 19px;
     color: #464646;
 }
+
