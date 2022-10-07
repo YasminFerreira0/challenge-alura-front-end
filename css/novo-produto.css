@@ -1,0 +1,157 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px 0;
+
+    width: 75vw;
+}
+
+.barra-pesquisa__cabecalho {
+    background-color: #F5F5F5;
+    border-radius:20px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.barra-pesquisa-busca__cabecalho {
+    font-family: 'Raleway', sans-serif;
+    color:#A2A2A2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    background-color:transparent;
+    border:none;
+    width:329px;
+    height:16px;
+  }
+
+.botao__cabecalho {
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 16px;
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+
+    align-self: flex-end;
+}
+
+
+
+
+
+.formulario__login {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo__login {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;
+
+}
+.senha__login, .email__login {
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A2A2A2;
+}
+
+
+.botao__login {
+    background-color: #2A7AE4;
+    border: none;
+    padding: 12px 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+
+
+
+  .rodape-condeudo {
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+    background-color: #EAF2FD;
+}
+
+
+.text__rodape a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    line-height: 19px;
+}
+
+.formulario__rodape {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo__rodape {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.input-name__rodape {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+    margin: 8px;
+}
+.input__rodape {
+    border: none;
+}
+
+.input-texto__rodape {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A2A2A2;
+    margin: 8px;
+}
+
+
+.rodape {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
