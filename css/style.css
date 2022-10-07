@@ -1,17 +1,14 @@
-body {
+
+.cabecalho {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-
-.cabecalho {
+.container__cabecalho {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 32px 0;
-
-    width: 75vw;
 }
 
 .barra-pesquisa__cabecalho {
@@ -21,6 +18,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 2vw;
+    margin-right: 20vw;
   }
   
 .barra-pesquisa-busca__cabecalho {
@@ -31,8 +30,9 @@ body {
     line-height: 16px;
     background-color:transparent;
     border:none;
-    width:329px;
-    height:16px;
+    width:330px;
+    height:25px;
+    padding-right: 50px;
   }
 
 .botao__cabecalho {
@@ -47,17 +47,29 @@ body {
     height: 51px;
     border: 1px solid #2A7AE4;
 
-    align-self: flex-end;
+    justify-self: flex-end;
 }
 
+
+
+
 .banner {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(https://trello.com/1/cards/63372bdf9bfa3102d17bb84f/attachments/63372be09bfa3102d17bba42/download/banner-image.png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../imagens/banner-image.png");
     background-repeat: no-repeat;
-    /**display: flex;
+    width: 100vw;
+    height: 352px;
+    display: flex;
+    
+}
+
+.conteudo__banner {
+    display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: flex-start;
-    justify-content: flex-end;**/
-    padding: 32px;
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+
 }
 
 .titulo__banner {
@@ -65,7 +77,7 @@ body {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 52px;
-    line-height: 61px;
+    line-height: 20px;
 }
 
 .texto__banner {
@@ -73,19 +85,32 @@ body {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 20px;
 }
 
 .botao__banner {
     background-color: #2A7AE4;
+    padding: 16px;
+    border: none;
+}
+
+.botao-link__banner{
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    padding: 16px;
-    border: none;
+    line-height: 19px;   
 }
+
+
+.container__produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .titulo__produto{
     display: flex;
