@@ -61,7 +61,7 @@ body {
 .banner {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../imagens/banner-image.png");
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 99,9vw;
     height: 352px;
     display: flex;
     
@@ -175,11 +175,23 @@ body {
     text-decoration: none;
 }
 
+
+
+
+
+.container__rodape {
+    background-color: #EAF2FD;
+    
+}
+
 .rodape-condeudo {
     display: flex;
-    justify-content: baseline;
+    justify-content: space-between;
     align-items: flex-start;
-    background-color: #EAF2FD;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding:  64px 0;
+    
 }
 
 
@@ -195,6 +207,7 @@ body {
 .formulario__rodape {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 
 }
 
@@ -211,6 +224,10 @@ body {
     flex-direction: column;
     background: #FFFFFF;
     border-radius: 4px;
+    margin: 8px 0;
+}
+
+.titulo-input__rodape {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -218,22 +235,59 @@ body {
     color: #A2A2A2;
     margin: 8px;
 }
+
 .input__rodape {
     border: none;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    margin: 8px;
 }
 
+
+
 .input-texto__rodape {
+    display: flex;
+    flex-direction: column;
     background: #FFFFFF;
     border: none;
     border-radius: 4px;
+    padding: 8px;
+    margin: 8px 0;
+}
 
-    font-family: 'Raleway', sans-serif;
+.titulo-textarea__rodape {
+    font-family: 'Raleway';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #A2A2A2;
-    margin: 8px;
 }
+
+.input-text-area__rodape {
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+}
+
+.botao-formulario__rodape {
+    background-color: #2A7AE4;
+    padding: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    border: none;
+    margin: 8px 0;
+    align-self: flex-start;
+}
+
 
 
 
@@ -244,4 +298,5 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #464646;
+    padding: 16px;
 }
