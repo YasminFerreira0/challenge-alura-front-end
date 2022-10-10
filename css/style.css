@@ -1,7 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 .cabecalho {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -9,6 +12,8 @@
     display: flex;
     justify-content: flex-start;
     padding: 32px 0;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .barra-pesquisa__cabecalho {
@@ -67,7 +72,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-left: 10vw;
+    margin-left: 8vw;
     margin-bottom: 2vw;
 
 }
@@ -91,24 +96,23 @@
 .botao__banner {
     background-color: #2A7AE4;
     padding: 16px;
-    border: none;
-}
-
-.botao-link__banner{
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;   
+    line-height: 19px; 
+    border: none;
 }
+
+
 
 
 .container__produtos{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    width: 84vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 
@@ -116,6 +120,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
 .titulo-tipo__produto {
@@ -135,12 +140,14 @@
     text-decoration: none;
 }
 
+
 .produtos {
     display: flex;
+    justify-content: space-between;
 }
 
 .starwars, .consoles, .diversos {
-    margin-right: 16px;
+    padding: 6px;
 }
 
 .titulo-produto {
