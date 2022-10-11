@@ -1,9 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .cabecalho {
     display: flex;
-    justify-content: space-around;
-    padding: 32px 0;
+    align-items: center;
+}
 
-    width: 75vw;
+.container__cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    padding: 32px 0;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .barra-pesquisa__cabecalho {
@@ -13,7 +23,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+    margin-left: 2vw;
+    margin-right: 20vw;
+}
   
 .barra-pesquisa-busca__cabecalho {
     font-family: 'Raleway', sans-serif;
@@ -23,18 +35,52 @@
     line-height: 16px;
     background-color:transparent;
     border:none;
-    width:329px;
-    height:16px;
-  }
+    width:330px;
+    height:25px;
+    padding-right: 50px;
+}
 
 
 
 
 
-  .titulo__produto{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    background-color: #E5E5E5;
+}
+
+.container__produtos{
+    display: flex;
+    flex-direction: column;
+    width: 84vw;
+    margin: 0 8vw;
+    margin-bottom: 8vh;
+}
+
+
+.titulo__produto{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
 .titulo-tipo__produto {
@@ -54,12 +100,14 @@
     text-decoration: none;
 }
 
+
 .produtos {
     display: flex;
+    justify-content: space-between;
 }
 
 .starwars, .consoles, .diversos {
-    margin-right: 16px;
+    padding: 6px;
 }
 
 .titulo-produto {
@@ -92,11 +140,44 @@
 
 
 
-  .rodape-condeudo {
-    display: flex;
-    justify-content: baseline;
-    align-items: flex-start;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container__rodape {
     background-color: #EAF2FD;
+    
+}
+
+.rodape-condeudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding:  64px 0;
+    
 }
 
 
@@ -112,6 +193,7 @@
 .formulario__rodape {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 
 }
 
@@ -128,6 +210,10 @@
     flex-direction: column;
     background: #FFFFFF;
     border-radius: 4px;
+    margin: 8px 0;
+}
+
+.titulo-input__rodape {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -135,22 +221,60 @@
     color: #A2A2A2;
     margin: 8px;
 }
+
 .input__rodape {
     border: none;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    margin: 8px;
 }
 
+
+
 .input-texto__rodape {
+    display: flex;
+    flex-direction: column;
     background: #FFFFFF;
     border: none;
     border-radius: 4px;
+    padding: 8px;
+    margin: 8px 0;
+}
 
-    font-family: 'Raleway', sans-serif;
+.titulo-textarea__rodape {
+    font-family: 'Raleway';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #A2A2A2;
-    margin: 8px;
 }
+
+.input-text-area__rodape {
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+}
+
+.botao-formulario__rodape {
+    background-color: #2A7AE4;
+    padding: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    border: none;
+    margin: 8px 0;
+    align-self: flex-start;
+}
+
+
 
 
 .rodape {
@@ -160,5 +284,6 @@
     font-size: 16px;
     line-height: 19px;
     color: #464646;
+    padding: 16px;
 }
 

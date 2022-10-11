@@ -105,14 +105,15 @@ body {
 }
 
 
-
+main {
+    background-color: #E5E5E5;
+}
 
 .container__produtos{
     display: flex;
     flex-direction: column;
     width: 84vw;
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin: 8vh 8vw;
 }
 
 
