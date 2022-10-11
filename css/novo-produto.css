@@ -25,7 +25,7 @@ body {
     justify-content: space-between;
     margin-left: 2vw;
     margin-right: 20vw;
-  }
+}
   
 .barra-pesquisa-busca__cabecalho {
     font-family: 'Raleway', sans-serif;
@@ -38,7 +38,7 @@ body {
     width:330px;
     height:25px;
     padding-right: 50px;
-  }
+}
 
 .botao__cabecalho {
     background-color: transparent;
@@ -55,64 +55,87 @@ body {
     justify-self: flex-end;
 }
 
-
-
-
-
-
-
-
+/** formulario**/
 
 .container__formulario {
     background-color: #E5E5E5;
     display: flex;
     justify-content: center;
 }
+
 .conteudo__formulario {
     display: flex;
     flex-direction: column;
-    margin: 8vw;
+    margin: 4vw;
 }
 
-
-.titulo__login {
+.titulo__novo-produto {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 32px;
+    line-height: 38px;
     color: #464646;
-    align-self: center;
-
+    align-self: flex-start;
 }
 
-
-.formulario__login {
+.formulario__novo-produto {
     display: flex;
     flex-direction: column;
 }
 
+.input-container__formulario {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin: 8px 0;
+}
 
-.senha__login, .email__login {
+.titulo-input__formulario {
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+    margin: 10px;
+}
+
+.input__formulario {
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    margin: 8px;
+}
+
+.input-texto__formulario {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
     border: none;
     border-radius: 4px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.titulo-textarea__formulario {
+    font-family: 'Raleway';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #A2A2A2;
-
-    height: 30px;
-    width: 30vw;
-    padding: 16px;
-    margin: 10px;
 }
 
-
-
-
-
-
-
+.input-text-area__formulario {
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+}
 
 .botao__formulario {
     background-color: #2A7AE4;
@@ -123,17 +146,10 @@ body {
     font-size: 16px;
     line-height: 19px; 
     border: none;
-    margin: 10px;
+    margin: 10px 0;
 }
 
-
-
-
-
-
-
-
-
+/**rodape**/
 .container__rodape {
     background-color: #EAF2FD;
     
@@ -148,7 +164,6 @@ body {
     padding:  64px 0;
     
 }
-
 
 .text__rodape a {
     text-decoration: none;
@@ -201,8 +216,6 @@ body {
     margin: 8px;
 }
 
-
-
 .input-texto__rodape {
     display: flex;
     flex-direction: column;
@@ -242,9 +255,6 @@ body {
     margin: 8px 0;
     align-self: flex-start;
 }
-
-
-
 
 .rodape {
     font-family: 'Raleway', sans-serif;

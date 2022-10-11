@@ -28,31 +28,44 @@
         </div>
     </header>
 
-
-
-
-
     <main>
         <div class="container__formulario">
             <div class="conteudo__formulario">
-                <h2 class="titulo__login">Iniciar Sessão</h2>
+                <h2 class="titulo__novo-produto">Adicionar novo produto</h2>
 
-                <form action="#" class="formulario__login">
-                    <input type="email" class="email__login" placeholder="Escreva seu email">
+                <form action="#" class="formulario__novo-produto">
 
-                    <input type="password" class="senha__login" placeholder="Escreva sua senha">
+                    <div class="input-container__formulario">
+                        <label class="titulo-input__formulario">URL da imagem</label>
+                        <input class="input__formulario" type="url">
+                    </div>
 
-                    <button class="botao__formulario">Entrar</button>
+                    <div class="input-container__formulario">
+                        <label class="titulo-input__formulario">Categoria</label>
+                        <input class="input__formulario" type="text">
+                    </div>
+
+                    <div class="input-container__formulario">
+                        <label class="titulo-input__formulario">Nome do produto</label>
+                        <input class="input__formulario" type="text">
+                    </div>
+
+                    <div class="input-container__formulario">
+                        <label class="titulo-input__formulario">Preço do produto</label>
+                        <input class="input__formulario" type="number">
+                    </div>
+
+                    <div class="input-texto__formulario">
+                        <label class="titulo-textarea__formulario">Descrição do produto</label>
+                        <textarea cols="65" rows="3" class="input-text-area__formulario"></textarea>
+                    </div>
+
+                    <button class="botao__formulario">Adicionar produto</button>
                 </form>
 
             </div>
         </div>
-
-
     </main>
-
-
-
 
     <footer>
 
