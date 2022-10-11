@@ -75,7 +75,6 @@ main {
     margin-bottom: 8vh;
 }
 
-
 .titulo__produto{
     display: flex;
     justify-content: space-between;
@@ -91,19 +90,23 @@ main {
     line-height: 38px;
 }
 
-.botao__produto {
+.botao-titulo__produto {
+    background-color: #2A7AE4;
+    padding: 16px;
     font-family: 'Raleway', sans-serif;
-    color: #2A7AE4;
-    font-weight: 700;
+    color: #FFFFFF;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    text-decoration: none;
+    line-height: 19px; 
+    border: none;
+    margin: 8px 0;
+    align-self: flex-start;
 }
-
 
 .produtos {
     display: flex;
     justify-content: space-between;
+    margin: 3vh 0;
 }
 
 .starwars, .consoles, .diversos {
@@ -126,13 +129,12 @@ main {
     line-height: 19px;
 }
 
-.link-produto {
+.codigo-produto {
     font-family: 'Raleway', sans-serif;
-    color: #2A7AE4;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
 }
 
 
