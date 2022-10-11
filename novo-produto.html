@@ -10,71 +10,90 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/novo-produto.css">
 
     <title>AluraGeek</title>
 </head>
 <body>
-    <nav class="cabecalho">
-        <img src="imagens/Logo.png" alt="logo alura greek" class="logo__cabecalho">
+    <header class="cabecalho">
+        <div class="container__cabecalho">
+            <img src="imagens/Logo.png" alt="logo alura greek" class="logo__cabecalho">
 
-        <div class="barra-pesquisa__cabecalho">
-            <input type="text" placeholder="O que deseja encontrar?" class="barra-pesquisa-busca__cabecalho">
-            <img src="imagens/Iconebusca.png" alt="Busca" class="barra-pesquisa-lupa__cabecalho">
+            <div class="barra-pesquisa__cabecalho">
+                <input type="text" placeholder="O que deseja encontrar?" class="barra-pesquisa-busca__cabecalho">
+                <img src="imagens/Iconebusca.png" alt="Busca" class="barra-pesquisa-lupa__cabecalho">
+            </div>
+
+            <button class="botao__cabecalho">Menu administrador</button>
         </div>
-
-        <button class="botao__cabecalho">Login</button>
-    </nav>
+    </header>
 
 
 
 
 
     <main>
-        <form action="#" class="formulario__login">
-            <p class="titulo__login">Iniciar Sessão</p>
-            
-            <input type="email" class="email__login" placeholder="Escreva seu email">
+        <div class="container__formulario">
+            <div class="conteudo__formulario">
+                <h2 class="titulo__login">Iniciar Sessão</h2>
 
-            <input type="password" class="senha__login" placeholder="Escreva sua senha">
+                <form action="#" class="formulario__login">
+                    <input type="email" class="email__login" placeholder="Escreva seu email">
 
-            <input type="button" value="Entrar" class="botao__login">
+                    <input type="password" class="senha__login" placeholder="Escreva sua senha">
 
-        </form>
+                    <button class="botao__formulario">Entrar</button>
+                </form>
+
+            </div>
+        </div>
 
 
     </main>
 
+
+
+
     <footer>
-        <div class="rodape-condeudo">
 
-            <img src="imagens/Logo.png" alt="logo AluraGeek" class="logo__rodape">
+        <div class="container__rodape">
+            <div class="rodape-condeudo">
 
-            <div class="text__rodape">
-                <p><a href="#">Quem somos nós</a></p>
-                <p><a href="#">Política de privacidade</a></p>
-                <p><a href="#">Programa fidelidade</a></p>
-                <p><a href="#">Nossas lojas</a></p>
-                <p><a href="#">Quero ser franqueado</a></p>
-                <p><a href="#">Anuncie aqui</a></p>
-            </div>
-            
-            <form action="#" method="post" class="formulario__rodape">
-                <p class="titulo__rodape">Fale conosco</p>
-                <div class="input-name__rodape">
-                    <label>Nome</label>
-                    <input class="input__rodape" type="text">
+                <img src="imagens/Logo.png" alt="logo AluraGeek" class="logo__rodape">
+
+                <div class="text__rodape">
+                    <p><a href="#">Quem somos nós</a></p>
+                    <p><a href="#">Política de privacidade</a></p>
+                    <p><a href="#">Programa fidelidade</a></p>
+                    <p><a href="#">Nossas lojas</a></p>
+                    <p><a href="#">Quero ser franqueado</a></p>
+                    <p><a href="#">Anuncie aqui</a></p>
                 </div>
+                
+                <form action="#" method="post" class="formulario__rodape">
+                    <p class="titulo__rodape">Fale conosco</p>
 
-                <textarea cols="60" rows="6" class="input-texto__rodape" placeholder="Escreva sua mensagem"></textarea>
-                <input type="button" value="Enviar mensagem">
-            </form>
+                    <div class="input-name__rodape">
+                        <label class="titulo-input__rodape">Nome</label>
+                        <input class="input__rodape" type="text">
+                    </div>
+
+                    <div class="input-texto__rodape">
+                        <label class="titulo-textarea__rodape">Escreva sua mensagem</label>
+                        <textarea cols="60" rows="6" class="input-text-area__rodape"></textarea>
+                    </div>
+
+
+                    <button class="botao-formulario__rodape">Enviar mensagem</button>
+                </form>
+            </div>
         </div>
 
         <div class="rodape">
             <p>Desenvolvido por Yasmin Ferreira</p>
             <p>2022</p>
         </div>
+        
     </footer>
 
 </body>
